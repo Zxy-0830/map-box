@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Xiyu Zhou">
+    <meta name="description" content="cat bars service">
+    <meta name="keywords" content="Software Developer, Portfolio, Web Development, Programming, Winnipeg, Canada">
+    <title>Map-box</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" type="text/css">
+    <script src="./assets/js/app.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="logo">RIDER</div>
+        <nav>
+          <a href="#">About us</a>
+          <a href="#">Contact</a>
+          <button class="login-btn">Login</button>
+        </nav>
+      </div>
+    </header>
+  
+    <main>
+      <section class="hero">
+        <h1>Know Where Your Package Is—Always</h1>
+        <p>From dispatch to doorstep, Rider shows you exactly where your delivery is.</p>
+        <button class="track-btn">Track</button>
+      </section>
+  
+      <section class="map-container">
+        <div id="map"></div>
+      </section>
+    </main>
+  </body>
+  </html>
